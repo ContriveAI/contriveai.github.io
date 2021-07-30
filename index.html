@@ -669,7 +669,7 @@
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
             <h4 class="display-3--title mb-5">start your project</h4>
-            <form action="https://contriveapi.herokuapp.com/homehome/" class="row" id="FormId">
+            <form action="https://contriveapi.herokuapp.com/ArticleContriveApi/" class="row" id="FormId">
               <div class="col-lg-6 col-md mb-3">
                 <input type="text" placeholder="First Name" name="first_name" id="inputFirstName"
                   class="shadow form-control form-control-lg">
@@ -718,6 +718,7 @@ $.ajax({
            {
               alert("Thank you for the message!");
                // show response from the php script.
+               document.getElementById("FormId").reset()
            }
          });
 
